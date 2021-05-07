@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>SEARCH BOX</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+<div id="Search">
+<img src="facebook.png" id="fbicon">
+<input type="text" placeholder="find your friend">
+<img src="ficon.png" class="magnifier">
+</div>
+</div>
+</body>
+<script>
+    var Search = document.getElementById("Search");
+    var fbicon = document.getElementById("fbicon");
+    fbicon.onclick=function(){
+        Search.classList.toggle("active");
+    }
+</script>
+</html>

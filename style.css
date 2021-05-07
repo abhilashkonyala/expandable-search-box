@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round',sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle, #cee2fd, #c9def3, #d6e8f3, #d5e9f3, #d0ecf5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Search{
+    border-radius: 50px;
+    padding: 15px;
+    background:#e9f0f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 6px 10px -1px rgba(0,0,0,0.20), -7px -6px 10px -1px rgba(255, 255, 250, 0.20);
+}
+#fbicon{
+    width: 60px;
+    cursor: pointer;
+}
+.magnifier{
+width: 0px;
+transition: 0.4s;
+transition-delay: 0.4s;
+cursor: pointer;
+}
+input{
+    font-size: 20px; 
+    width: 0px;
+    border: 0;
+    background: transparent;
+    outline: none;
+    transition: 1.5s;
+}
+.active input{
+    width: 555px;
+    padding: 12px 20px;
+}
+.active .magnifier{
+    width:45px;
+} 
